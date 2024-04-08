@@ -98,7 +98,7 @@ func getProgramScope(authorization string, id string, bbpOnly bool, categories [
 			break // no more pages
 		}
 	}
-
+	fmt.Printf("Program Handle: %s\n", id)
 	return pData
 }
 
